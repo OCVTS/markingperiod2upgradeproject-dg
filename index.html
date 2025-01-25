@@ -1,50 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Dice Upgrade Project</title>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>  
     <link href="style.css" rel="stylesheet" type="text/css" />
-    </head>
+</head>
 
-    <body>
-            <div id="box">
-            <h1>Dice Game</h1>
-            
+<body>
+    <div class="container">
+        <h1>Dice Game</h1>
 
-            <!-- <h2>By Mahammadali M.</h2> -->
+        <!-- base images to start off with along with text -->
+        <div class="dice1">
+            <p class="Player1">Player rolled: </p>
+            <img class="img1" src="dice6.png">
+            <img class="img3" src="dice6.png">
+        </div>
 
-        <main>
-            
-           
-            <button id="rollButton">Roll Dice</button>
+
         
-            
-                <p id="playerDice">Player rolled:</p>
-                <p id="computerDice">Computer rolled:</p>
-                <p id="playerTotal"></p>
-                <p id="computerTotal"></p>
+        <div class="dice2">
+            <p class="Player2">Computer rolled: </p>
+            <img class="img2" src="dice6.png">
+            <img class="img4" src="dice6.png">
+        </div>
+    
+        <!-- roll dice button -->
 
-                
-                <h3 id="winner"></h3>
-
-                <p id="playerScore">Player Score: </p>
-                <p id="computerScore">Computer Score: </p>
-
-
-                <p id="playerDices">Player Dices:</p>    
-                <img class="img1" src="dice6.png">
-
-                <p id="computerDices">Computer Dices:</p>
-                <img class="img2" src="dice6.png">
-
-      
-
-        </main>
+    <div class="container bottom">
+        <button type="button" class="butn"
+            onClick="rollTheDice()">
+            Roll Dice
+        </button>
     </div>
-        <footer></footer>
-        <script src="script.js"></script>
-    </body>
+
+
+
+</div>
+
+    <script src="script.js"></script>
+</body>
+<footer></footer>
 </html>
-
-

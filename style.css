@@ -1,84 +1,88 @@
-h1 {
-    text-align: center;
-    color: rgb(92, 64, 51);
-    padding-top: 10px;
-}
 
-h2 {
-    text-align: center;
-    color:rgb(92, 64, 51);
-}
+    .container {
+        width: 70%;
+        text-align: center;
+        background-color: burlywood;
+        border: 50px;
+        border-color: solid black;
+        border-radius: 50px;
+        margin-top: 50px;
+        margin-right: 250px;
+        margin-left: 250px;
+        padding-bottom: 75px;
+    }
 
-button {
-    background-color:rgb(151, 105, 83); 
-    border-color: rgb(133, 92, 73); 
-    width: 100px; 
-    height: 40px; 
-    margin-left: 645px; 
-    color:#3F261D;
-}
+    .dice1 {
+        text-align: center;
+        display: inline-block;
+        margin: 10px;
+        width: 190px;
+        padding-inline: 50px;
+        
+    }
 
-body {
-    background-color: #3F261D;
-}
+    .dice2 {
+        text-align: center;
+        display: inline-block;
+        margin: 10px;
+        width: 190px;
+    }
 
-#box {
-    background-color: burlywood;
-    border-radius: 50px;
-    border: 10px solid rgb(90, 62, 37);
-    border-radius: 50px;
-    margin-top: 50px;
-    margin-right: 250px;
-    margin-left: 250px;
-    padding-bottom: 75px;
-}
+    .dice3 {
+        text-align: center;
+        display: inline-block;
+        margin: 10px;
+        width: 190px;
+    }
 
-#playerDice {
-    text-align:center;
-    color:rgb(92, 64, 51);
-}
+    .dice4 {
+        text-align: center;
+        display: inline-block;
+        margin: 10px;
+        width: 190px;
+    }
 
-#computerDice {
-    text-align: center; 
-    color:rgb(92, 64, 51);
-}
+    body {
+        background-color: #3F261D;
+        margin: 0;
+        padding-bottom: 50px;
+    }
 
-#playerTotal {
-    text-align: center;
-    color: rgb(92, 64, 51);
-}
+    h1 {
+        margin: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 4.5rem;
+        color: #3F261D;
+        text-align: center;
+    }
 
-#computerTotal {
-    text-align: center;
-    color:rgb(92, 64, 51);
-}
+    p {
+        font-size: 2rem;
+        color: #3F261D;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
 
-#winner {
-    text-align: center; 
-    color:rgb(92, 64, 51);
-}
+    img {
+        width: 100%;
+    }
 
-#playerScore {
-    text-align: center;
-    color:rgb(92, 64, 51);
-}
+    .bottom {
+        padding-top: 30px;
+    }
 
-#computerScore {
-    text-align: center;
-    color:rgb(92, 64, 51);
-}
+    .butn {
+        background: rgb(151, 105, 83); 
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        border-radius: 7px;
+        border-color: #3F261D;
+        color:#3F261D;
+        font-size: 30px;
+        padding: 16px 25px 16px 25px;
+        text-decoration: none;
+    }
 
-#playerDices {
-    display: inline;
-    padding-left: 375px;
-    font-size: 30px;
-    color: rgb(92, 64, 51);
-}
+    .butn:hover {
+        background: #232931;
+        text-decoration: none;
+    }
 
-
-#computerDices {
-    display: inline;
-    padding-inline: 300px;
-    font-size: 30px;
-    color: rgb(92, 64, 51);
-}
